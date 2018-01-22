@@ -4,7 +4,7 @@
 local modulename = "magickInit"
 local _M = {}
 local mt = { __index = _M }
-_M._VERSION = '0.1.1'
+_M._VERSION = '0.0.1'
 _M._NAME = modulename
 
 local magick = require("magick.wand")
